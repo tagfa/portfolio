@@ -1,21 +1,21 @@
 # Site settings
 baseurl = "https://white-stone-0e55e8d00.azurestaticapps.net/"
-languageCode = "en-us"
-title = "Spectre Pixel Theme"
+languageCode = "ja-jp"
+title = "portfolio"
 theme = "spectre-pixel"
 
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
 
 [params]
-  name = "John Doe"
+  name = "Hiroyuki Tagami"
   altName = "John"
-  description = "Describe your website"
-  bio = "Blogger & Programmer"
+  description = "portfolio"
+  bio = "Infra Engineer"
   enableRSS = true
 
   # Author information in posts
-  aboutAuthor = "I'm a Programmer."
+  aboutAuthor = "I'm a Infra Engineer."
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -42,11 +42,8 @@ googleAnalytics = ""
 
 # Add additional social link entries underneath
 [social]
-	email    = "john.doe@email.com"
-	facebook = "https://www.facebook.com/"
-	github   = "https://www.github.com/"
-	linkedin = "https://www.linkedin.com/"
-	twitter  = "https://www.twitter.com/"
+	github   = "https://github.com/tagfa/"
+
 
 [taxonomies]
   tag = "tags"
