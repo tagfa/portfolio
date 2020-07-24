@@ -7,6 +7,7 @@ tags = [
     "html5",
     "css3",
 ]
+draft: true
 +++
 
 Lorem est tota propiore conpellat pectoribus de
