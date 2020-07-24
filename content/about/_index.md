@@ -16,4 +16,4 @@ menu: "main"
 
 
 ### Education
-
+Chiba Institute of Technology
