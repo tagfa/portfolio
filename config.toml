@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.com/"
+baseurl = "https://white-stone-0e55e8d00.azurestaticapps.net/"
 languageCode = "en-us"
 title = "Spectre Pixel Theme"
 theme = "spectre-pixel"
