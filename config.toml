@@ -9,7 +9,6 @@ googleAnalytics = ""
 
 [params]
   name = "Hiroyuki Tagami"
-  altName = "John"
   description = "portfolio"
   bio = "Infra Engineer"
   enableRSS = true
