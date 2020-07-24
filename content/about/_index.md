@@ -6,6 +6,7 @@ menu: "main"
 ### About This Site
 > このサイトは、Hugo、Azure Static Webapp、Github Actionで作成されています。
 
+https://github.com/tagfa/portfolio
 
 ### About Me
 > コードが書けるインフラエンジニア。
