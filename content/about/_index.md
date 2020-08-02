@@ -7,6 +7,8 @@ menu: "main"
 このサイトは、Hugo、Azure Static Webapp、Github Actionで作成されています。
 (詳細はページ下段参照)
 
+<br />
+<br />
 
 ## About Me
 1992年生まれの社会人歴6年目。
@@ -18,12 +20,18 @@ menu: "main"
 
 近年では、構成管理・自動化ツールであるAnsibleの導入も担当。
 
+<br />
+<br />
+
 ## 資格
 - 基本情報技術者
 - 応用情報技術者
 - 情報セキュリティスペシャリスト
 - Azure Fundamental
 - Azure Administrator Assosiate
+
+<br />
+<br />
 
 ## 自己学習
 自己学習したものは以下の通り。
@@ -34,7 +42,11 @@ menu: "main"
 - AnsibleとTerraformを組み合わせることでAWSのインフラ構築を自動化
 - AnsibleからTerraformを実行することで、インターフェースをAnsibleに一本化
 #### URL
-github:https://github.com/tagfa/ansible-terraform
+github:[https://github.com/tagfa/ansible-terraform](https://github.com/tagfa/ansible-terraform)
+
+
+<br />
+<br />
 
 ### 自身のポートフォリオサイト(このサイト)
 #### 概要
@@ -42,18 +54,24 @@ github:https://github.com/tagfa/ansible-terraform
 - Azure Static Web Appsでホスティングすることで、サーバレス化
 
 #### URL
-github:https://github.com/tagfa/portfolio
+github:[https://github.com/tagfa/portfolio](https://github.com/tagfa/portfolio)
+
+<br />
+<br />
 
 ### S3を用いたギャラリーサイト
-
 
 #### 概要
 - AWSで複数サービスを組み合わせたWebサイト作成
 - Cognitoを使うことで、非公開の特定のS3バケットにのみアクセス可。
 
 #### URL
-サイト：http://tagfaphotoviewer.net/ 
-github：https://github.com/tagfa/photoViewer
+- サイト：[http://tagfaphotoviewer.net/](http://tagfaphotoviewer.net/) 
+
+- github：[https://github.com/tagfa/photoViewer](https://github.com/tagfa/photoViewer)
+
+<br />
+<br />
 
 ## Development Skills
 {{< tag java >}}
