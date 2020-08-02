@@ -6,10 +6,9 @@ menu: "main"
 ## About This Site
 このサイトは、Hugo、Azure Static Webapp、Github Actionで作成されています。
 (詳細はページ下段参照)
-https://github.com/tagfa/portfolio
+
 
 ## About Me
-コードが書けるインフラエンジニア。
 1992年生まれの社会人歴6年目。
 新卒で金融グループのIT企業に入社。
 
@@ -19,55 +18,42 @@ https://github.com/tagfa/portfolio
 
 近年では、構成管理・自動化ツールであるAnsibleの導入も担当。
 
-https://github.com/tagfa
-
-## Qualification
+## 資格
 - 基本情報技術者
 - 応用情報技術者
 - 情報セキュリティスペシャリスト
 - Azure Fundamental
 - Azure Administrator Assosiate
 
-## 自主制作物
-### 1.自身のポートフォリオサイト(このサイト)
-#### 狙い
-- Azureを用いたWebサイトホスティング
-- CI/CDの基礎となる自動ビルド、自動デプロイの学習
+## 自己学習
+自己学習したものは以下の通り。
+詳細は、githubのReadmeに記載。
 
-#### 採用技術
-- Azure(Azure Static Web Apps)
-- Hugo
-- GitHub Actions
+### AnsibleとTerraformを組み合わせたクラウドインフラ構築
+#### 概要
+- AnsibleとTerraformを組み合わせることでAWSのインフラ構築を自動化
+- AnsibleからTerraformを実行することで、インターフェースをAnsibleに一本化
+#### URL
+github:https://github.com/tagfa/ansible-terraform
 
-![構成図1](./01.jpg)
+### 自身のポートフォリオサイト(このサイト)
+#### 概要
+- Hugoでサイト作成、GithubActionsでCI/CD、AzureでWebサイトホスティング
+- Azure Static Web Appsでホスティングすることで、サーバレス化
 
-### 2.S3を用いた写真掲載サイト
-URL：
-http://tagfaphotoviewer.net/ 
+#### URL
+github:https://github.com/tagfa/portfolio
 
-#### 狙い
+### S3を用いたギャラリーサイト
+
+
+#### 概要
 - AWSで複数サービスを組み合わせたWebサイト作成
-- フロントエンド基礎の学習
+- Cognitoを使うことで、非公開の特定のS3バケットにのみアクセス可。
 
-#### 採用技術
-- AWS(EC2,S3,Cognito,Route53)
-- HTML,CSS,JavaScript
-
-#### 処理フロー
-①HTTPアクセス
-
-- Route53でFQDNの名前解決し、Webサーバ(Nginxが稼働)にアクセス
-
-②認証情報取得
-
-- CognitoのIDプールを作成し、S3の特定のBucketにのみアクセス可能なIAMを付与
-
-③画像ファイルDL
-
-- ②で作成したIDでS3へアクセス。画像を取得。
-
-![構成図2](./02.jpg)
-
+#### URL
+サイト：http://tagfaphotoviewer.net/ 
+github：https://github.com/tagfa/photoViewer
 
 ## Development Skills
 {{< tag java >}}
@@ -76,4 +62,5 @@ http://tagfaphotoviewer.net/
 {{< tag redhat >}}
 {{< tag oracle >}}
 - Ansible
+- terraform
 - Azure
