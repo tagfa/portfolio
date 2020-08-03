@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>portfolio</title><link>https://white-stone-0e55e8d00.azurestaticapps.net/</link><description>Recent content on portfolio</description><generator>Hugo -- gohugo.io</generator><language>ja-jp</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://white-stone-0e55e8d00.azurestaticapps.net/index.xml" rel="self" type="application/rss+xml"/><item><title>インフラエンジニア</title><link>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job02/</link><pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate><guid>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job02/</guid><description>担当システム1 オンプレミスの仮想化基盤
 構成 サーバ層、スイッチ層、ストレージ層の３層構造
-サーバ：約50台(HPE) スイッチ：約20台(HPE、Cisco) ストレージ：約10台(NetApp、日立) 仮想化ソフト：VMware vSphere6 業務内容 運用・保守 基盤リソース状況管理(CPU、メモリ、ストレージ) 仮想マシンリソース管理(リソース拡張依頼の受領、内容確認、見積り、ベンダー手配) 障害対応(原因切り分け、対応方針策定、お客様エスカレーション/ベンダー手配) 複数ベンダーとの業務調整 EOSLを迎えるHW等の更改対応 担当システム2 Ansible導入
-業務内容 導入 CI/CD、Infrastructures as Codeのトレンド調査 Chef、Ansible等のツール比較、選定 Ansible導入 playbook作成</description></item><item><title>Webアプリケーションエンジニア</title><link>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job01/</link><pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate><guid>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job01/</guid><description>担当システム 証券会社の基幹システム。株・債券等の売買を行うためのシステム。
+サーバ：約50台(HPE) スイッチ：約20台(HPE、Cisco) ストレージ：約10台(NetApp、日立) 仮想化ソフト：VMware vSphere6 起動仮想マシンは本番環境、開発環境合わせて約800サーバ
+業務内容 運用・保守 基盤リソース状況管理(CPU、メモリ、ストレージ) 仮想マシンリソース管理(リソース拡張依頼の受領、内容確認、見積り、ベンダー手配) 障害対応(原因切り分け、対応方針策定、お客様エスカレーション/ベンダー手配) お客様/複数ベンダーとの業務調整 EOSLを迎えるHW等の更改対応 成果・アピールポイント ミッションクリティカルな大手証券会社の金融システム基盤運用を担当する中で、 安定したシステム運用を意識して業務を行う。
+通常の運用作業においては、ベンダー作成の各種手順書の再鑑時に、様々なトラブルを想定したコンティンジェンシープランを提案。
+トラブルが起きてもスムーズに対応できるよう尽力。
+障害対応においては、多重障害が起きた場合を想定し障害の影響を局所化できるように対応。
+担当システム2 Ansible
+業務内容 導入 CI/CD、Infrastructures as Codeのトレンド調査 Chef、Ansible等のツール比較、選定 Ansible導入 playbook作成 Linux/WindowsServerでのWebサーバ構築 WindowsServerでの共有フォルダアクセス権変更 WindowsServerでのセキュリティパッチ適用 成果・アピールポイント ツールの選定から、自動化する機能の選定、サーバ構築、playbook作成まで一貫して実施。
+また、インターネットなしという厳しい制約のもと構築作業を実施。 従来は、インストールに必要なパッケージをexcelで一覧化、申請し、他部署にてDLしていた。効率が悪く、またAnsibleでの自動化の際に障壁になると考え、ローカルにリポジトリサーバを構築。Ansible導入に必要なパッケージは、OSのISOイメージから抽出することで、効率化。</description></item><item><title>Webアプリケーションエンジニア</title><link>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job01/</link><pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate><guid>https://white-stone-0e55e8d00.azurestaticapps.net/posts/job01/</guid><description>担当システム 証券会社の基幹システム。株・債券等の売買を行うためのシステム。
 Web/APサーバ、DBサーバの２層構造。
 構成技術 フロントエンド：JSP サーバサイド：Java フレームワーク：O3W Webサーバ：Apache APサーバ：Tomcat DBサーバ：Oracle database OS：CentOS6 業務内容 設計 基本設計：概要設計を読み、どの機能でどのような改修をするのかを記載 詳細設計：基本設計を読み、コードのどこをどのように直すのかを記載 開発 Java、COBOLでのバックエンドロジック改修 C言語のバッチ処理改修 テスト テストケース作成 テスト実施 成果・アピールポイント 高品質なシステム開発 C言語のバッチ処理改修にて、既存コードに、環境依存となる記載を発見。
 (sprintf関数で重複領域のコピーを行っていた。この場合、動作は未定義。今までは偶然うまく動いていた可能性あり)
